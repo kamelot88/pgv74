@@ -1,0 +1,796 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.eot");
+  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Lato-Bold.woff2") format("woff2"),
+    url("../fonts/Lato-Bold.woff") format("woff"),
+    url("../fonts/Lato-Bold.ttf") format("truetype"),
+    url("../fonts/Lato-Bold.svg#Lato-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*Flex Framework*/
+.main_flex {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  
+  .main_flex_rev {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row-reverse wrap;
+    flex-flow: row-reverse wrap;
+  }
+  
+  .main_flex__nowrap {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+  }
+  
+  .main_flex_column {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+  .main_flex_column_nw {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+  }
+  .flex__auto {
+    flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+  }
+  
+  .flex__jcontent_between {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+  
+  .flex__jcontent_start {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+  }
+  
+  .flex__jcontent_end {
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+  }
+  
+  .flex__jcontent_center {
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  
+  .flex__jcontent_around {
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+  }
+  
+  .flex__align-items_start {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+  }
+  
+  .flex__align-items_end {
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+  }
+  
+  .flex__align-items_baseline {
+    align-items: baseline;
+    -webkit-align-items: baseline;
+  }
+  
+  .flex__align-items_stretch {
+    align-items: stretch;
+    -webkit-align-items: stretch;
+  }
+  
+  .flex__align-items_center {
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  
+  .flex__align-content_flex-start {
+    align-content: flex-start;
+    -webkit-align-content: flex-start;
+  }
+  
+  .flex__align-content_flex-end {
+    align-content: flex-end;
+    -webkit-align-content: flex-end;
+  }
+  
+  .flex__align-content_space-between {
+    align-content: space-between;
+    -webkit-align-content: space-between;
+  }
+  
+  .flex__align-content_center {
+    align-content: center;
+    -webkit-align-content: center;
+  }
+  
+  .flex__align-content_space-around {
+    align-content: space-around;
+    -webkit-align-content: space-around;
+  }
+  
+  .flex__align-content_stretch {
+    align-content: stretch;
+    -webkit-align-content: stretch;
+  }
+  
+  .flex__flex-grow_01 {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+  }
+  
+  .flex__flex-grow_02 {
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
+  }
+  
+  .flex__flex-grow_03 {
+    flex-grow: 3;
+    -webkit-flex-grow: 3;
+  }
+  
+  .flex__flex-grow_04 {
+    flex-grow: 4;
+    -webkit-flex-grow: 4;
+  }
+  
+  .flex__order_01 {
+    order: 1;
+    -webkit-order: 1;
+  }
+  
+  .flex__order_02 {
+    order: 2;
+    -webkit-order: 2;
+  }
+  
+  .flex__order_03 {
+    order: 3;
+    -webkit-order: 3;
+  }
+  
+  .flex__order_04 {
+    order: 4;
+    -webkit-order: 4;
+  }
+  
+  .flex__order_05 {
+    order: 5;
+    -webkit-order: 5;
+  }
+  
+  .flex__order_06 {
+    order: 6;
+    -webkit-order: 6;
+  }
+  /*Flex Framework_end*/
+  
+  /* Reset */
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    outline: 0 none;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  address,
+  article,
+  aside,
+  canvas,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  nav,
+  menu,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  a,
+  a:hover,
+  button,
+  button:hover,
+  .anime,
+  .small_btn,
+  .btn:hover .small_btn {
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+  button {
+    cursor: pointer;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  */ a,
+  a:hover,
+  button,
+  button:hover,
+  .anime {
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  /* Reset_end*/
+
+    /* Начало общих стилей*/
+body {
+    font-family: "Lato - Bold", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+.col_white {
+        color: #ffffff;
+    }
+    header {
+      height: 10vw;
+      width: 100%;
+      background-color: #212121;
+      position: fixed;
+      top: 0;
+      z-index: 17;
+      box-shadow: 1px 7px 13px 8px black;
+  }
+  .hamburger {
+    height: 3.5vh;
+    z-index: 7;
+    z-index: 16;
+    display: none;
+  }
+  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+  }
+  .rotation {
+    -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+  }
+  .rotation2 {
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+    /* transition: all 1.5s ease; */
+    /* transition: top 3s ease-out 2.5s; */
+    /* transition: rotate 4s 1s; */
+  }
+  .navigation {
+    display: block;
+    z-index: 15;
+    height: 100%;
+  }
+  nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    width: 50vw;
+    font-size: 1.2vw;
+    position: absolute;
+    right: 6vw;
+    top: 0;
+    z-index: 15;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    border-radius: 3px;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+  }
+  nav li {
+    text-align: center;
+  }
+  .bold {
+    background-color: #FFFFFF;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;;
+  }
+  nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  nav li:hover {
+    text-shadow: 4px -4px 8px white;
+  }
+  #main {
+      width: 75vw;
+  }  
+  #main div {
+    padding-right: 2vw;
+  }
+  .logo h1{
+      color: #ff3448;
+      font-size: 2.5vw;
+      font-weight: 900;
+      letter-spacing: .05em;
+  }
+  .logo h2 {
+    font-size: .7vw;
+  }
+  h2 {
+      font-size: 2.5vw;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+  }
+  .logo_miner {
+    z-index: 9;
+    width: 3vw;
+  } 
+  .logo_miner:hover {
+      transform: scale(0.9);
+      transition: all 0.75s ease;
+      /* transform: skewX(15deg); */
+  }
+  .logo_dtek {
+      display: none;
+      width: auto;
+      background-color: #ffffff;
+      margin: 0 auto;
+      margin-top: 65px;
+      height: 3.5vh;
+      overflow: hidden;
+  }
+  .logo_dtek img {
+      width: auto;
+      height: 3.5vh;
+  }
+  .other2 {
+    z-index: 9;
+    display: block;
+  }
+  .logo_md {
+      width: auto;
+      height: 15vh;
+      overflow: hidden;
+  }
+  .nedra {
+      width: 100%;
+      height: 85vh;
+      position: relative;
+      margin-top: 10vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(img/regnum_picture_1574054381425780_normal.jpg);
+  }
+  /*Анимация блока nedra*/
+  .nedra {
+    animation: slidesow 20s linear infinite 1s;
+    backface-visibility: hidden;
+  }
+  @keyframes slidesow {
+    0%
+    {
+      background-image: url(img/regnum_picture_1574054381425780_normal.jpg);
+      animation-timing-function: ease-in-out;
+    }
+    25%
+    {
+      background-image: url(img/LkU\ 7168.jpg);
+      animation-timing-function: ease-in-out;
+    }
+    50%
+    {
+      background-image: url(img/LkU\ 7162.jpg);
+      animation-timing-function: ease-in-out;
+    }
+    75%
+    {
+      background-image: url(img/LkU\ 7178.jpg);
+      animation-timing-function: ease-in-out;
+    }
+    100%
+    {
+      background-image: url(img/LkU\ 7177.jpg);
+      animation-timing-function: ease-in-out;
+    }
+  }
+  #information {
+    padding-bottom: 5vh;
+  }
+  #information div img {
+    height: 16vh;
+    width: auto;
+  }
+  #information div {
+    width: 60vw;
+    margin-top: 5vh;
+  }
+  #information p {
+    width: 70%;
+    font-size: 2vw;
+  }
+  #rules {
+    color: #ffffff;
+    background-color: #1c1c1c;
+    padding: 5vh 0vw 0vw 0vw;
+    width: 100%;
+  }
+  #rules h2{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2vh;
+    font-size: 3.5vw;
+    text-shadow: 0 0 17px rgb(253, 246, 246);
+  }
+  #rules div {
+    width: 100%;
+    padding: 0vh 20vw 0vh 20vw;
+    height: 35vh;
+  }
+  #rules p {
+    margin: 0 0vw 0 4vw;
+    text-indent: 4vw;
+    font-size: 1.4vw;
+  }
+  #rules .temperant {
+    padding: 0vh 20vw 0vh 20vw;
+    margin: 0 0 2vh 0;
+  }
+  .pullUp, .burpee {
+    background-color: #303030;
+  }
+  #rules div img {
+    width: 7vw;
+    border-radius: 50%;
+    margin-right: 3vw;
+  }
+  #rules div img:hover {
+    transition: all 0.75s ease;
+      transform-origin: center center;
+      -webkit-transform-origin: center center;
+      -moz-transform-origin: center center;
+      -o-transform-origin: center center;
+      -ms-transform-origin: center center;
+      transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+  }
+  .effekt {
+    transition: all 1.5s ease;
+      transform-origin: center center;
+      -webkit-transform-origin: center center;
+      -moz-transform-origin: center center;
+      -o-transform-origin: center center;
+      -ms-transform-origin: center center;
+      transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+  }
+  #contakt {
+    padding-top: 4vh;
+    background-color: #f0c33d;
+  }
+  #contakt h2{
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-shadow: 0 0 2px black;
+    margin-bottom: 3vh;
+  }
+  #contakt h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7vw;
+    margin-bottom: 3vh;
+  }
+  #contakt .bolt {
+    font-weight: 700;
+  }
+  #contakt div {
+    width: auto;
+    margin-bottom: 4vh;
+  }
+  #contakt div img {
+    height: 12vh;
+    width: 5vw;
+  }
+  .strelka {
+    transform: scale(.64);
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+  #contakt button {
+    height: 8vh;
+    width: 23vw;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 2vw;
+    margin-bottom: 4vh;
+    font-weight: 900;
+    box-shadow: inset -7px 7px black;
+  }
+  #contakt button:hover {
+    background-color: rgb(211, 181, 141);
+  }
+  #contakt p {
+    margin-top: 2vh;
+    text-align:  center;
+    font-size: 1.4vw;
+  }
+  #contakt a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 3vw;
+    font-weight: 700;
+  }
+  #contakt img {
+    height: 7vh;
+    margin-right: 2vw;
+  }
+  #contakt .end {
+    margin-top: 0;
+  }
+  footer {
+    background-color: #0d0c0c;
+    height: 14vh;
+    padding: 0 20vw 0 20vw;
+    color: #ffffff;
+    font-size: 1.3vw;
+  }
+  footer .small {
+    font-size: .8vw;
+  }
+  footer img {
+    height: 8vh;
+  }
+  .logoDtek {
+    background-color: blanchedalmond;
+    height: 2.2vh;
+    position: relative;
+    top: -22px;
+    right: -150px;
+  }
+  .cop p {
+    line-height: 35%;
+  }
+  /* Начало стилей для формы регистрации */
+  #black_fill {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+  }
+    #white_fill {
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 14;
+      background-color: rgba(0, 0, 0, 0);
+      display: none;  
+    }
+  #modal_box {
+    display: none;
+    position: fixed;
+    top: 15vh;
+    width: 80%;
+    left: calc(50% - 20vw);
+    z-index: 21;
+  }
+  #close_modal {
+    width: 2vw;
+    height: 2vw;
+    fill: #fff;
+    position: absolute;
+    top: -3vw;
+    right: 37vw;
+    cursor: pointer;
+    z-index: 21;
+  }
+  #close_modal:hover {
+  box-shadow: 3px 8px 20px 20px #b52222;
+  }
+  .login_box {
+    width: 50%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 30px;
+  }
+  .login_box form {
+    padding: 32px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  .form a {
+    color: #ffc61a;
+  }
+  .login_label {
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 22px;
+  }
+  .input, .select {
+    width: 100%;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .input input, .select select {
+    height: 5vh;
+    width: 100%;
+    border-radius: 16px;
+    background-color: rgba(195, 195, 195, 1.00);
+    transition: all 35ms linear;
+    border: none;
+    text-align: center;
+  }
+  .input button {
+    width: 55%;
+  }
+  .input input:focus {
+    transform: scale(1.05);
+    outline: rgba(255, 162, 84, 1.00);
+    background-color: #fff;
+    transition: all 35ms linear;
+  }
+  .input button:hover {
+    transition: all 35ms linear;
+    transform: scale(1.05);
+  }
+  .btn1 {
+    border: none;
+    cursor: pointer;
+  }
+  .send {
+    background-color: rgba(244, 115, 41, 1.00);
+    color: #fff;
+    height: 7vh;
+    border-radius: 16px;
+    width: 90%;
+    transition: all 35ms linear;
+  }
+    /* Конец стилей для формы отправки коментария */
+    
+
+
+    /* Начало стилей для Таймера */
+    @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+    .timer-body {
+      /* position: absolute;
+      top: 0;
+      left: -15px; */
+      font-weight: 700;
+      font-size: 2vw;
+      text-align: center;
+      width: auto;
+      line-height: 1.25;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 0;
+    }
+    
+    .timer-body__number {
+      font-size: 1.15em;
+    }
+    /* Конец стилей для Таймера */

@@ -1,0 +1,507 @@
+@media (min-width: 768px) and (max-width: 1020px) {
+  header {
+    height: 22vw;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
+    width: 7vw;
+  }
+  .navigation {
+    display: none;
+    
+  }
+  nav {
+    height: 57vh;
+    width: 48vw;
+    font-size: 4vw;
+    right: 0;
+    background-color: rgb(3, 3, 3, .9);
+    box-shadow:  0 0 12px 14px black;
+    z-index: 16;
+  }
+  nav ul {
+    height: 47vh;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .bold {
+      display: none;
+  }
+  #main {
+      margin: 0vh 0 0vh 0;
+  }   
+  #main div {
+    padding-right: 0;
+  }
+  .logo h1 {
+      font-size: 6vw;
+  }
+  .logo h2 {
+    font-size: 2vw;
+  }
+  .logo_miner {
+    width: 5.5vw;
+  } 
+  .logo_md {
+      width: auto;
+      height: 15vh;
+      overflow: hidden;
+  }
+  .nedra {
+      height: 78vh;
+      margin-top: 22vw;
+  }
+  #information {
+    width: 100%;
+  }
+  #information div img {
+    height: auto;
+    width: 25%;
+  }
+  #information div {
+    width: 80vw;
+    margin-bottom: 2vh;
+  }
+  #information p {
+    font-size: 4.5vw;
+  }
+  #rules h2{
+    font-size: 7vw;
+    margin-bottom: 0;
+  }
+  #rules div {
+    padding: 4vh 4vw 4vh 4vw;
+    height: auto;
+  }
+  #rules p {
+    text-indent: 6vw;
+    font-size: 4vw;
+  }
+  #rules .temperant {
+    margin: 0 0 0 0;
+    height: auto;
+    padding: 3vh 15vw 3vh 15vw;
+}
+  #rules .burpee {
+    height: auto;
+  }
+  #rules div img {
+    width: 15vw;
+  }
+  #contakt {
+    padding-top: 3vh;
+  }
+  #contakt h2{
+    font-size: 7vw;
+  }
+  #contakt h3{
+    font-size: 4.2vw;
+    margin-bottom: 1.5vh;
+  }
+  #contakt div {
+    margin-bottom: 2vh;
+  }
+  #contakt div img {
+    height: 17vh;
+    width: 12vw;
+    margin-top: 2vh;
+  }
+  .strelka {
+    transform: scale(1);
+}
+  #contakt button {
+    height: 15vw;
+    width: 50vw;
+    font-size: 4vw;
+    box-shadow: inset -4px 4px black;
+  }
+  #contakt p {
+    font-size: 3.4vw;
+  }
+  #contakt a {
+    font-size: 6vw;
+  }
+  footer {
+    padding: 0 8vw 0 8vw;
+    font-size: 3.5vw;
+  }
+  footer .small {
+    font-size: 2vw;
+  }
+  footer img {
+    height: 5vh;
+  }
+  .md {
+      font-size: 3vw;
+  }
+  .logoDtek {
+    display: none;
+}
+  
+  /* Начало стилей для формы регистрации */
+  #modal_box {
+    left: calc(50% - 40vw);
+  }
+  #close_modal {
+    width: 6vw;
+    height: 6vw;
+    top: -6vw;
+    right: -6vw;
+  }
+  .login_box {
+    width: 100%;
+    height: 70vh;
+  }
+  /* Конец стилей для формы отправки коментария */
+  .timer-body {
+    font-size: 4vw;
+  }
+}
+    
+    
+@media (min-width: 375px) and (max-width: 767px) {
+      
+    header {
+    height: 22vw;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
+    width: 7vw;
+  }
+  .navigation {
+    display: none;
+  }
+  nav {
+    height: 57vh;
+    width: 48vw;
+    font-size: 4vw;
+    right: 0;
+    background-color: rgb(3, 3, 3, .9);
+    box-shadow:  0 0 12px 14px black;
+    z-index: 15;
+  }
+  nav ul {
+    height: 47vh;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  nav li a {
+    z-index: 20;
+  }
+  .bold {
+      display: none;
+  }
+  #main {
+      margin: 0vh 0 0vh 0;
+  }   
+  #main div {
+    padding-right: 0;
+  }
+  .logo h1{
+      font-size: 6vw;
+  }
+  .logo h2 {
+    font-size: 2vw;
+  }
+  .logo_miner {
+    width: 5.5vw;
+  } 
+  .nedra {
+      height: 43vh;
+      margin-top: 22vw;
+  }
+  /*Анимация блока nedra*/
+  .nedra {
+    animation: slidesow 20s linear infinite 1s;
+    backface-visibility: hidden;
+  }
+  #information {
+    width: 100%;
+  }
+  #information div img {
+    height: auto;
+    width: 25%;
+  }
+  #information div {
+    width: 80vw;
+    margin-bottom: 2vh;
+  }
+  #information p {
+    font-size: 4.5vw;
+  }
+  #rules h2{
+    font-size: 7vw;
+    margin-bottom: 0;
+  }
+  #rules div {
+    width: 100vw;
+    padding: 4vh 4vw 4vh 4vw;
+    height: auto;
+  }
+  #rules p {
+    margin: 0 4vw 0 4vw;
+    text-indent: 6vw;
+    font-size: 4vw;
+  }
+  #rules .temperant {
+    margin: 0 0 0 0;
+    height: auto;
+    padding: 3vh 15vw 3vh 15vw;
+}
+  #rules .burpee {
+    height: auto;
+  }
+  #rules div img {
+    width: 15vw;
+  }
+  #contakt {
+    padding-top: 3vh;
+  }
+  #contakt h2{
+    font-size: 7vw;
+  }
+  #contakt h3{
+    font-size: 4.2vw;
+    margin-bottom: 1.5vh;
+  }
+  #contakt div {
+    margin-bottom: 2vh;
+  }
+  #contakt div img {
+    height: 7vh;
+    width: 12vw;
+    margin-top: 2vh;
+  }
+  .strelka {
+    transform: scale(1);
+}
+  #contakt button {
+    height: 15vw;
+    width: 50vw;
+    font-size: 4vw;
+    box-shadow: inset -4px 4px black;
+  }
+  #contakt p {
+    font-size: 3.4vw;
+  }
+  #contakt a {
+    font-size: 6vw;
+  }
+  footer {
+    padding: 0 8vw 0 8vw;
+    font-size: 3.5vw;
+  }
+  footer .small {
+    font-size: 2vw;
+  }
+  footer img {
+    height: 5vh;
+  }
+  .md {
+      font-size: 3vw;
+  }
+  .logoDtek {
+    height: 1.5vh;
+    top: -13px;
+    right: -75px;
+    display: none;
+}
+  /* Начало стилей для формы регистрации */
+    
+  #modal_box {
+    left: calc(50% - 40vw);
+  }
+  #close_modal {
+    width: 6vw;
+    height: 6vw;
+    top: -6vw;
+    right: -6vw;
+  }
+  .login_box {
+    width: 100%;
+  }
+  /* Конец стилей для формы отправки коментария */
+  .timer-body {
+    font-size: 4vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  header {
+    height: 22vw;
+  }
+  .hamburger {
+    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
+    width: 7vw;
+  }
+  .navigation {
+    display: none;
+  }
+  nav {
+    height: 57vh;
+    width: 48vw;
+    font-size: 4vw;
+    right: 0;
+    background-color: rgb(3, 3, 3, .9);
+    box-shadow:  0 0 12px 14px black;
+    z-index: 15;
+  }
+  nav ul {
+    height: 47vh;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  nav li a {
+    z-index: 20;
+  }
+  .bold {
+      display: none;
+  }
+  #main {
+      margin: 0vh 0 0vh 0;
+  }   
+  #main div {
+    padding-right: 0;
+  }
+  .logo h1{
+      font-size: 6vw;
+  }
+  .logo h2 {
+    font-size: 2vw;
+  }
+  .logo_miner {
+    width: 5.5vw;
+  } 
+  .nedra {
+      height: 43vh;
+      margin-top: 22vw;
+  }
+  /*Анимация блока nedra*/
+  .nedra {
+    animation: slidesow 20s linear infinite 1s;
+    backface-visibility: hidden;
+  }
+  #information {
+    width: 100%;
+  }
+  #information div img {
+    height: auto;
+    width: 25%;
+  }
+  #information div {
+    width: 80vw;
+    margin-bottom: 2vh;
+  }
+  #information p {
+    font-size: 4.5vw;
+  }
+  #rules h2{
+    font-size: 7vw;
+    margin-bottom: 0;
+  }
+  #rules div {
+    width: 100vw;
+    padding: 4vh 4vw 4vh 4vw;
+    height: auto;
+  }
+  #rules p {
+    margin: 0 4vw 0 4vw;
+    text-indent: 6vw;
+    font-size: 4vw;
+  }
+  #rules .temperant {
+    margin: 0 0 0 0;
+    height: auto;
+    padding: 3vh 15vw 3vh 15vw;
+}
+  #rules .burpee {
+    height: auto;
+  }
+  #rules div img {
+    width: 15vw;
+  }
+  #contakt {
+    padding-top: 3vh;
+  }
+  #contakt h2{
+    font-size: 7vw;
+  }
+  #contakt h3{
+    font-size: 4.2vw;
+    margin-bottom: 1.5vh;
+  }
+  #contakt div {
+    margin-bottom: 2vh;
+  }
+  #contakt div img {
+    height: 7vh;
+    width: 12vw;
+    margin-top: 2vh;
+  }
+  .strelka {
+    transform: scale(1);
+}
+  #contakt button {
+    height: 15vw;
+    width: 50vw;
+    font-size: 4vw;
+    box-shadow: inset -4px 4px black;
+  }
+  #contakt p {
+    font-size: 3.4vw;
+  }
+  #contakt a {
+    font-size: 6vw;
+  }
+  footer {
+    padding: 0 8vw 0 8vw;
+    font-size: 3.5vw;
+  }
+  footer .small {
+    font-size: 2vw;
+  }
+  footer img {
+    height: 5vh;
+  }
+  .md {
+      font-size: 3vw;
+  }
+  .logoDtek {
+    height: 1.5vh;
+    top: -13px;
+    right: -75px;
+    display: none;
+}
+  /* Начало стилей для формы регистрации */
+    
+  #modal_box {
+    left: calc(50% - 40vw);
+  }
+  #close_modal {
+    width: 6vw;
+    height: 6vw;
+    top: -6vw;
+    right: -6vw;
+  }
+  .login_box {
+    width: 100%;
+  }
+  .timer-body {
+    font-size: 4vw;
+  }
+
+}
