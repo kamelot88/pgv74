@@ -169,35 +169,7 @@
     header {
     height: 22vw;
   }
-  .hamburger {
-    display: block;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-  }
-  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
-    width: 7vw;
-  }
-  .navigation {
-    display: none;
-  }
-  nav {
-    height: 57vh;
-    width: 48vw;
-    font-size: 4vw;
-    right: 0;
-    background-color: rgb(3, 3, 3, .9);
-    box-shadow:  0 0 12px 14px black;
-    z-index: 15;
-  }
-  nav ul {
-    height: 47vh;
-    display: flex;
-    flex-flow: column wrap;
-  }
-  nav li a {
-    z-index: 20;
-  }
+
   .bold {
       display: none;
   }
@@ -220,11 +192,18 @@
       height: 43vh;
       margin-top: 22vw;
   }
-  /*Анимация блока nedra*/
-  .nedra {
-    animation: slidesow 20s linear infinite 1s;
-    backface-visibility: hidden;
+  .nedra option {
+    font-size: 1.4vw;
   }
+  .nedra select {
+    overflow: hidden;
+    margin-bottom: 15px;
+    max-width: 90%;
+  }
+  .nedra form button {
+    width: 30%;
+  }
+  
   #information {
     width: 100%;
   }
@@ -236,8 +215,15 @@
     width: 80vw;
     margin-bottom: 2vh;
   }
+  #information h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+  }
   #information p {
-    font-size: 4.5vw;
+    font-size: 4vw;
+    text-align: center;
   }
   #rules h2{
     font-size: 7vw;
@@ -305,10 +291,14 @@
     font-size: 2vw;
   }
   footer img {
-    height: 5vh;
+    height: 2vh;
   }
   .md {
-      font-size: 3vw;
+      font-size: 2.5vw;
+  }
+  .md p strong {
+    text-transform: uppercase;
+    font-size: 2.8vw;
   }
   .logoDtek {
     height: 1.5vh;
@@ -316,25 +306,7 @@
     right: -75px;
     display: none;
 }
-  /* Начало стилей для формы регистрации */
-    
-  #modal_box {
-    left: calc(50% - 40vw);
-  }
-  #close_modal {
-    width: 6vw;
-    height: 6vw;
-    top: -6vw;
-    right: -6vw;
-  }
-  .login_box {
-    width: 100%;
-  }
-  /* Конец стилей для формы отправки коментария */
-  .timer-body {
-    font-size: 4vw;
-  }
-}
+ 
 @media (min-width: 320px) and (max-width: 374px) {
   header {
     height: 22vw;

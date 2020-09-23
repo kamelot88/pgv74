@@ -319,7 +319,7 @@
 body {
     font-family: "Lato - Bold", sans-serif;
     margin: 0;
-    min-height: 100vh;
+  
 }
 .col_white {
         color: #ffffff;
@@ -333,65 +333,13 @@ body {
       z-index: 17;
       box-shadow: 1px 7px 13px 8px black;
   }
-  .hamburger {
-    height: 3.5vh;
-    z-index: 7;
-    z-index: 16;
-    display: none;
-  }
-  .hamburger .l1, .hamburger .l2, .hamburger .l3 {
-    width: 30px;
-    height: 3px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-  }
-  .rotation {
-    -moz-transform: rotate(90deg); /* Для Firefox */
-    -ms-transform: rotate(90deg); /* Для IE */
-    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(90deg); /* Для Opera */
-    transform: rotate(90deg);
-  }
-  .rotation2 {
-    -moz-transform: rotate(180deg); /* Для Firefox */
-    -ms-transform: rotate(180deg); /* Для IE */
-    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(180deg); /* Для Opera */
-    transform: rotate(180deg);
-    /* transition: all 1.5s ease; */
-    /* transition: top 3s ease-out 2.5s; */
-    /* transition: rotate 4s 1s; */
-  }
-  .navigation {
-    display: block;
-    z-index: 15;
-    height: 100%;
-  }
-  nav {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-content: center;
-    height: 100%;
-    width: 50vw;
-    font-size: 1.2vw;
-    position: absolute;
-    right: 6vw;
-    top: 0;
-    z-index: 15;
-    /* text-transform: uppercase; */
-    font-weight: 700;
-    border-radius: 3px;
-  }
-  nav ul {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-content: center;
-    width: 100%;
-  }
-  nav li {
-    text-align: center;
+  .yelo {
+    width: 100vw;
+    height: 30px;
+    background-color: rgb(248, 225, 19);
+    opacity: 0.3;
+    position: fixed;
+
   }
   .bold {
     background-color: #FFFFFF;
@@ -401,16 +349,7 @@ body {
     display: flex;
     align-self: center;;
   }
-  nav li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-  nav li:hover {
-    text-shadow: 4px -4px 8px white;
-  }
-  #main {
-      width: 75vw;
-  }  
+  
   #main div {
     padding-right: 2vw;
   }
@@ -465,42 +404,25 @@ body {
       height: 85vh;
       position: relative;
       margin-top: 10vw;
+      padding-top: 30px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-image: url(img/regnum_picture_1574054381425780_normal.jpg);
   }
-  /*Анимация блока nedra*/
-  .nedra {
-    animation: slidesow 20s linear infinite 1s;
-    backface-visibility: hidden;
+  .nedra option {
+    font-size: 1.5vw;
   }
-  @keyframes slidesow {
-    0%
-    {
-      background-image: url(img/regnum_picture_1574054381425780_normal.jpg);
-      animation-timing-function: ease-in-out;
-    }
-    25%
-    {
-      background-image: url(img/LkU\ 7168.jpg);
-      animation-timing-function: ease-in-out;
-    }
-    50%
-    {
-      background-image: url(img/LkU\ 7162.jpg);
-      animation-timing-function: ease-in-out;
-    }
-    75%
-    {
-      background-image: url(img/LkU\ 7178.jpg);
-      animation-timing-function: ease-in-out;
-    }
-    100%
-    {
-      background-image: url(img/LkU\ 7177.jpg);
-      animation-timing-function: ease-in-out;
-    }
+  .nedra select {
+    overflow: hidden;
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+  .nedra form button {
+    width: 30%;
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
   }
   #information {
     padding-bottom: 5vh;
@@ -514,7 +436,7 @@ body {
     margin-top: 5vh;
   }
   #information p {
-    width: 70%;
+
     font-size: 2vw;
   }
   #rules {
@@ -654,6 +576,7 @@ body {
   }
   footer img {
     height: 8vh;
+    background-color: #fff;
   }
   .logoDtek {
     background-color: blanchedalmond;
@@ -665,111 +588,7 @@ body {
   .cop p {
     line-height: 35%;
   }
-  /* Начало стилей для формы регистрации */
-  #black_fill {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 15;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: none;
-  }
-    #white_fill {
-      width: 100%;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 14;
-      background-color: rgba(0, 0, 0, 0);
-      display: none;  
-    }
-  #modal_box {
-    display: none;
-    position: fixed;
-    top: 15vh;
-    width: 80%;
-    left: calc(50% - 20vw);
-    z-index: 21;
-  }
-  #close_modal {
-    width: 2vw;
-    height: 2vw;
-    fill: #fff;
-    position: absolute;
-    top: -3vw;
-    right: 37vw;
-    cursor: pointer;
-    z-index: 21;
-  }
-  #close_modal:hover {
-  box-shadow: 3px 8px 20px 20px #b52222;
-  }
-  .login_box {
-    width: 50%;
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.774);
-    border-radius: 30px;
-  }
-  .login_box form {
-    padding: 32px;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-  }
-  .form a {
-    color: #ffc61a;
-  }
-  .login_label {
-    text-align: center;
-    margin-bottom: 5vh;
-    font-size: 22px;
-  }
-  .input, .select {
-    width: 100%;
-    margin-bottom: 5vh;
-    text-align: center;
-  }
-  .input input, .select select {
-    height: 5vh;
-    width: 100%;
-    border-radius: 16px;
-    background-color: rgba(195, 195, 195, 1.00);
-    transition: all 35ms linear;
-    border: none;
-    text-align: center;
-  }
-  .input button {
-    width: 55%;
-  }
-  .input input:focus {
-    transform: scale(1.05);
-    outline: rgba(255, 162, 84, 1.00);
-    background-color: #fff;
-    transition: all 35ms linear;
-  }
-  .input button:hover {
-    transition: all 35ms linear;
-    transform: scale(1.05);
-  }
-  .btn1 {
-    border: none;
-    cursor: pointer;
-  }
-  .send {
-    background-color: rgba(244, 115, 41, 1.00);
-    color: #fff;
-    height: 7vh;
-    border-radius: 16px;
-    width: 90%;
-    transition: all 35ms linear;
-  }
-    /* Конец стилей для формы отправки коментария */
-    
+  
 
 
     /* Начало стилей для Таймера */
