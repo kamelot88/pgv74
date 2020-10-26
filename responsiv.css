@@ -169,7 +169,9 @@
     header {
     height: 22vw;
   }
-
+#information {
+  min-height: 260px;
+}
   .bold {
       display: none;
   }
