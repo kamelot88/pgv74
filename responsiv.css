@@ -199,11 +199,11 @@
     overflow: hidden;
     margin-bottom: 15px;
     max-width: 90%;
+    height: 50px;
   }
   .nedra form button {
     width: 30%;
   }
-  
   #information {
     width: 100%;
   }

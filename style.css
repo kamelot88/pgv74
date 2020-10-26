@@ -319,8 +319,14 @@
 body {
     font-family: "Lato - Bold", sans-serif;
     margin: 0;
-  
 }
+
+.hidden {
+  display: none;
+}
+/* .bilet {
+  display: none;
+} */
 .col_white {
         color: #ffffff;
     }
