@@ -30,11 +30,19 @@ sizeSetting.onchange = function() {
   }
 }
 
+// Начало скрипта появления желтой полосы
 
+let yellowSwich = document.querySelector("body > div.yelo");
   
+yellowSwich.classList.add('hidden');
 
-
-
+window.onscroll = function () {
+  if (pageYOffset > 300) {
+    yellowSwich.classList.remove('hidden');
+  } else {
+    yellowSwich.classList.add('hidden');
+  }
+}
   
 
 

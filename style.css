@@ -429,6 +429,7 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     max-width: 90%;
+    height: 30px;
   }
   .nedra form button {
     width: 30%;
@@ -450,13 +451,16 @@ body {
   .bilet {
     font-size: 14px;
   }
+  .bilet h2 {
+    margin-bottom: 10px;
+  }
   #information h2 {
     font-weight: 700;
   }
  
   footer {
     background-color: #0d0c0c;
-    height: 14vh;
+    height: 9vh;
     padding: 0 20vw 0 20vw;
     color: #ffffff;
     font-size: 1.3vw;
