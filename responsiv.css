@@ -42,7 +42,7 @@
       font-size: 6vw;
   }
   .logo h2 {
-    font-size: 2vw;
+    font-size: 9px;
   }
   .logo_miner {
     width: 5.5vw;
@@ -68,63 +68,7 @@
     margin-bottom: 2vh;
   }
   #information p {
-    font-size: 4.5vw;
-  }
-  #rules h2{
-    font-size: 7vw;
-    margin-bottom: 0;
-  }
-  #rules div {
-    padding: 4vh 4vw 4vh 4vw;
-    height: auto;
-  }
-  #rules p {
-    text-indent: 6vw;
-    font-size: 4vw;
-  }
-  #rules .temperant {
-    margin: 0 0 0 0;
-    height: auto;
-    padding: 3vh 15vw 3vh 15vw;
-}
-  #rules .burpee {
-    height: auto;
-  }
-  #rules div img {
-    width: 15vw;
-  }
-  #contakt {
-    padding-top: 3vh;
-  }
-  #contakt h2{
-    font-size: 7vw;
-  }
-  #contakt h3{
-    font-size: 4.2vw;
-    margin-bottom: 1.5vh;
-  }
-  #contakt div {
-    margin-bottom: 2vh;
-  }
-  #contakt div img {
-    height: 17vh;
-    width: 12vw;
-    margin-top: 2vh;
-  }
-  .strelka {
-    transform: scale(1);
-}
-  #contakt button {
-    height: 15vw;
-    width: 50vw;
-    font-size: 4vw;
-    box-shadow: inset -4px 4px black;
-  }
-  #contakt p {
-    font-size: 3.4vw;
-  }
-  #contakt a {
-    font-size: 6vw;
+    font-size: 14px;
   }
   footer {
     padding: 0 8vw 0 8vw;
@@ -167,7 +111,7 @@
 @media (min-width: 375px) and (max-width: 767px) {
       
     header {
-    height: 22vw;
+    height: 25vw;
   }
 #information {
   min-height: 260px;
@@ -185,7 +129,7 @@
       font-size: 6vw;
   }
   .logo h2 {
-    font-size: 2vw;
+    font-size: 9px;
   }
   .logo_miner {
     width: 5.5vw;
@@ -201,7 +145,7 @@
     overflow: hidden;
     margin-bottom: 15px;
     max-width: 90%;
-    height: 50px;
+    height: 30px;
   }
   .nedra form button {
     width: 30%;
@@ -218,73 +162,13 @@
     margin-bottom: 2vh;
   }
   #information h2 {
-    font-size: 4vw;
-    font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
   }
   #information p {
-    font-size: 4vw;
     text-align: center;
   }
-  #rules h2{
-    font-size: 7vw;
-    margin-bottom: 0;
-  }
-  #rules div {
-    width: 100vw;
-    padding: 4vh 4vw 4vh 4vw;
-    height: auto;
-  }
-  #rules p {
-    margin: 0 4vw 0 4vw;
-    text-indent: 6vw;
-    font-size: 4vw;
-  }
-  #rules .temperant {
-    margin: 0 0 0 0;
-    height: auto;
-    padding: 3vh 15vw 3vh 15vw;
-}
-  #rules .burpee {
-    height: auto;
-  }
-  #rules div img {
-    width: 15vw;
-  }
-  #contakt {
-    padding-top: 3vh;
-  }
-  #contakt h2{
-    font-size: 7vw;
-  }
-  #contakt h3{
-    font-size: 4.2vw;
-    margin-bottom: 1.5vh;
-  }
-  #contakt div {
-    margin-bottom: 2vh;
-  }
-  #contakt div img {
-    height: 7vh;
-    width: 12vw;
-    margin-top: 2vh;
-  }
-  .strelka {
-    transform: scale(1);
-}
-  #contakt button {
-    height: 15vw;
-    width: 50vw;
-    font-size: 4vw;
-    box-shadow: inset -4px 4px black;
-  }
-  #contakt p {
-    font-size: 3.4vw;
-  }
-  #contakt a {
-    font-size: 6vw;
-  }
+ 
   footer {
     padding: 0 8vw 0 8vw;
     font-size: 3.5vw;
@@ -355,7 +239,7 @@
       font-size: 6vw;
   }
   .logo h2 {
-    font-size: 2vw;
+    font-size: 14px;
   }
   .logo_miner {
     width: 5.5vw;
@@ -380,11 +264,8 @@
     width: 80vw;
     margin-bottom: 2vh;
   }
-  #information p {
-    font-size: 4.5vw;
-  }
   #rules h2{
-    font-size: 7vw;
+    font-size: 14px;
     margin-bottom: 0;
   }
   #rules div {
@@ -412,7 +293,7 @@
     padding-top: 3vh;
   }
   #contakt h2{
-    font-size: 7vw;
+    font-size: 14px;
   }
   #contakt h3{
     font-size: 4.2vw;

@@ -366,10 +366,10 @@ body {
       letter-spacing: .05em;
   }
   .logo h2 {
-    font-size: .7vw;
+    font-size: 9px;
   }
   h2 {
-      font-size: 2.5vw;
+      font-size: 14px;
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: .05em;
@@ -391,6 +391,12 @@ body {
       margin-top: 65px;
       height: 3.5vh;
       overflow: hidden;
+  }
+  label {
+    font-size: 12px;
+  }
+  .size-setting {
+    width: 200px;
   }
   .logo_dtek img {
       width: auto;
@@ -441,135 +447,13 @@ body {
     width: 60vw;
     margin-top: 5vh;
   }
-  #information p {
-
-    font-size: 2vw;
+  .bilet {
+    font-size: 14px;
   }
-  #rules {
-    color: #ffffff;
-    background-color: #1c1c1c;
-    padding: 5vh 0vw 0vw 0vw;
-    width: 100%;
-  }
-  #rules h2{
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 2vh;
-    font-size: 3.5vw;
-    text-shadow: 0 0 17px rgb(253, 246, 246);
-  }
-  #rules div {
-    width: 100%;
-    padding: 0vh 20vw 0vh 20vw;
-    height: 35vh;
-  }
-  #rules p {
-    margin: 0 0vw 0 4vw;
-    text-indent: 4vw;
-    font-size: 1.4vw;
-  }
-  #rules .temperant {
-    padding: 0vh 20vw 0vh 20vw;
-    margin: 0 0 2vh 0;
-  }
-  .pullUp, .burpee {
-    background-color: #303030;
-  }
-  #rules div img {
-    width: 7vw;
-    border-radius: 50%;
-    margin-right: 3vw;
-  }
-  #rules div img:hover {
-    transition: all 0.75s ease;
-      transform-origin: center center;
-      -webkit-transform-origin: center center;
-      -moz-transform-origin: center center;
-      -o-transform-origin: center center;
-      -ms-transform-origin: center center;
-      transform: rotate(-360deg);
-      -webkit-transform: rotate(-360deg);
-      -moz-transform: rotate(-360deg);
-      -o-transform: rotate(-360deg);
-      -ms-transform: rotate(-360deg);
-  }
-  .effekt {
-    transition: all 1.5s ease;
-      transform-origin: center center;
-      -webkit-transform-origin: center center;
-      -moz-transform-origin: center center;
-      -o-transform-origin: center center;
-      -ms-transform-origin: center center;
-      transform: rotate(-360deg);
-      -webkit-transform: rotate(-360deg);
-      -moz-transform: rotate(-360deg);
-      -o-transform: rotate(-360deg);
-      -ms-transform: rotate(-360deg);
-  }
-  #contakt {
-    padding-top: 4vh;
-    background-color: #f0c33d;
-  }
-  #contakt h2{
-    text-align: center;
-    font-size: 3.5vw;
-    font-weight: 700;
-    text-shadow: 0 0 2px black;
-    margin-bottom: 3vh;
-  }
-  #contakt h3{
-    text-align: center;
-    font-weight: 500;
-    font-size: 1.7vw;
-    margin-bottom: 3vh;
-  }
-  #contakt .bolt {
+  #information h2 {
     font-weight: 700;
   }
-  #contakt div {
-    width: auto;
-    margin-bottom: 4vh;
-  }
-  #contakt div img {
-    height: 12vh;
-    width: 5vw;
-  }
-  .strelka {
-    transform: scale(.64);
-    cursor: pointer;
-    transition: all 1.5s ease;
-}
-  #contakt button {
-    height: 8vh;
-    width: 23vw;
-    margin: 0 auto;
-    border-radius: 15px;
-    font-size: 2vw;
-    margin-bottom: 4vh;
-    font-weight: 900;
-    box-shadow: inset -7px 7px black;
-  }
-  #contakt button:hover {
-    background-color: rgb(211, 181, 141);
-  }
-  #contakt p {
-    margin-top: 2vh;
-    text-align:  center;
-    font-size: 1.4vw;
-  }
-  #contakt a {
-    text-decoration: none;
-    color: #030303;
-    font-size: 3vw;
-    font-weight: 700;
-  }
-  #contakt img {
-    height: 7vh;
-    margin-right: 2vw;
-  }
-  #contakt .end {
-    margin-top: 0;
-  }
+ 
   footer {
     background-color: #0d0c0c;
     height: 14vh;
@@ -594,28 +478,3 @@ body {
   .cop p {
     line-height: 35%;
   }
-  
-
-
-    /* Начало стилей для Таймера */
-    @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
-    .timer-body {
-      /* position: absolute;
-      top: 0;
-      left: -15px; */
-      font-weight: 700;
-      font-size: 2vw;
-      text-align: center;
-      width: auto;
-      line-height: 1.25;
-      color: rgb(255, 255, 255);
-      font-weight: bold;
-      margin: 0 auto;
-      padding: 0;
-    }
-    
-    .timer-body__number {
-      font-size: 1.15em;
-    }
-    /* Конец стилей для Таймера */
