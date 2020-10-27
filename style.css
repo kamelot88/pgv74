@@ -451,6 +451,9 @@ body {
   .bilet {
     font-size: 14px;
   }
+  .bilet p {
+    margin-bottom: 10px;
+  }
   .bilet h2 {
     margin-bottom: 10px;
   }
