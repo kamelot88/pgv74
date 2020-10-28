@@ -18,6 +18,10 @@
     display: none;
     
   }
+  .js-timer {
+    position:static;
+  }
+  
   nav {
     height: 57vh;
     width: 48vw;
@@ -128,6 +132,10 @@
   #main {
       margin: 0vh 0 0vh 0;
   }   
+  .js-timer {
+    position:static;
+    font-size: 9px;
+  }
   #main div {
     padding-right: 0;
   }

@@ -46,7 +46,4 @@ window.onscroll = function () {
   
 
 
-
-
-
 }
